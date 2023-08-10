@@ -26,7 +26,7 @@ const Courses = () => {
                                 <span className='font-bold text-sm'>{course.duracion}</span>
                             </div>
 
-                            <button className='w-full my-4 py-2 flex gap-4 justify-center content-center bg-[#4E4FEB] hover:bg-[#393ab3] rounded-lg text-[#EEEEEE] hover:text-white'>
+                            <button className='w-full my-4 py-2 flex gap-4 justify-center content-center bg-[#000000] hover:bg-[#07001f] rounded-lg text-[#EEEEEE] hover:text-white'>
                                 <IconVerCurso />
                                 Ver curso
                             </button>

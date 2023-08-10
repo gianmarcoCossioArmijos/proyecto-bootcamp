@@ -75,3 +75,4 @@ export const heroCourses = [
 export const primaryColor = "#4E4FEB";
 export const secondaryColor = "#068FFF";
 export const thirdColor = "#EEEEEE";
+export const fourthColor = "#000000";
