@@ -1,10 +1,11 @@
 import React from 'react'
 
-import IconFacebook from './footer_icons/IconFacebook'
-import IconLinkedin from './footer_icons/IconLinkedin'
-import IconTwitter from './footer_icons/IconTwitter'
-import IconLogo from '../header/IconLogo'
+import IconFacebook from '../components/home_components/footer/footer_icons/IconFacebook'
+import IconLinkedin from '../components/home_components/footer/footer_icons/IconLinkedin'
+import IconTwitter from '../components/home_components/footer/footer_icons/IconTwitter'
+import IconLogo from '../components/home_components/header/IconLogo'
 
+// Layout del footer
 const Footer = () => {
   return (
     <>

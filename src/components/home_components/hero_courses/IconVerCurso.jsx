@@ -1,7 +1,9 @@
 import React from 'react';
 
-import verCurso from '../../assets/ver_curso.png';
+import verCurso from '../../../assets/ver_curso.png';
 
+// Componente con el icono para el boton ver curso, la imagen
+// en formato png se carga de la carpeta assets
 const IconVerCurso = () => {
   return (
     <>

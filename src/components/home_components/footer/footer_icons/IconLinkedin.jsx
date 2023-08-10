@@ -1,7 +1,9 @@
 import React from 'react'
 
-import linkedin from "../../../assets/linkedin.png"
+import linkedin from "../../../../assets/linkedin.png"
 
+// Componente con  logo de Linkedin, la imagen en
+// formato png se importa de assets
 const IconLinkedin = () => {
   return (
     <>

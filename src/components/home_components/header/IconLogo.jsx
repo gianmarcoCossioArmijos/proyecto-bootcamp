@@ -1,7 +1,9 @@
 import React from 'react'
 
-import logo from '../../assets/logo.png'
+import logo from '../../../assets/logo.png'
 
+// Componente con  logo de la pagina, la imagen en
+// formato png se importa de assets
 const LogoIcon = () => {
   return (
     <>

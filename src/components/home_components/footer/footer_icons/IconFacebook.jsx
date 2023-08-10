@@ -1,7 +1,9 @@
 import React from 'react'
 
-import facebook from "../../../assets/facebook.png"
+import facebook from "../../../../assets/facebook.png"
 
+// Componente con el logo de Facebook, la imagen en formato
+// png se importa de la carpeta assets
 const IconFacebook = () => {
   return (
     <>

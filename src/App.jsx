@@ -1,17 +1,31 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Header from './components/header/Header'
-import Hero from './components/hero/Hero'
-import Courses from './components/hero_courses/Courses'
-import Footer from './components/footer/Footer'
+import Home from "../src/pages/Home"
+import Header from './layouts/Header'
+import Error404 from "../src/pages/404"
+import Login from './pages/auth/Login'
+import Register from './pages/auth/Register'
+import Footer from './layouts/Footer'
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Hero />
-      <Courses />
-      <Footer />
+
+    <BrowserRouter>
+      <Header>
+          <Routes>
+            
+            <Route path="/" element ={<Home/>} />
+            <Route path="/login" element ={<Login/>} />
+            <Route path="/register" element ={<Register/>} />
+            <Route path="*" element={<Error404 />} />
+
+          </Routes>
+          
+          <Footer />
+      </Header>
+    </BrowserRouter>
     </>
   )
 }

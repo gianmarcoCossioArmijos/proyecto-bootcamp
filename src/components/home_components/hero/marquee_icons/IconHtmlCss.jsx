@@ -1,7 +1,9 @@
 import React from 'react'
 
-import htmlcss from '../../../assets/htmlcss.png'
+import htmlcss from '../../../../assets/htmlcss.png'
 
+// Componente con icono de desarrollo web, la imagen
+// en formato png se importo de la carpeta assets
 const IconHtmlCss = () => {
   return (
     <>

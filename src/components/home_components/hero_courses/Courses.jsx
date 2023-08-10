@@ -1,8 +1,10 @@
 import React from 'react'
 
-import { heroCourses } from "../../constants/hero_courses.js"
+import { heroCourses } from "../../../constants/hero_courses.js"
 import IconVerCurso from './IconVerCurso.jsx'
 
+// Componente que muestra cards de algunos cursos, los cuales se cargan
+// temporalmente del archivo hero_courses.js en la carpeta constants
 const Courses = () => {
   return (
     <>

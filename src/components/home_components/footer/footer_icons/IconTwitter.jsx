@@ -1,8 +1,9 @@
 import React from 'react'
 
-import twitter from "../../../assets/twitter.png"
+import twitter from "../../../../assets/twitter.png"
 
-
+// Componente con  logo de Twitter, la imagen en
+// formato png se importa de assets
 const IconTwitter = () => {
   return (
     <>

@@ -7,6 +7,8 @@ import IconPowerBi from './marquee_icons/IconPowerBi'
 import IconExcel from './marquee_icons/IconExcel'
 import IconPhp from './marquee_icons/IconPhp'
 
+// Componente con  un marquee con las tecnologias que se enseña
+// en los cursos de la pagina, formato png se importa de assets
 const HeroMarquee = () => {
   return (
     <>
